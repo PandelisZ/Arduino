@@ -7,7 +7,7 @@ void setup()
     pinMode(ledPin[i], OUTPUT);
   }
   Serial.begin(9600);
-  Serial.println("clowns");
+  Serial.println("🤡");
 }
 
 void loop()
