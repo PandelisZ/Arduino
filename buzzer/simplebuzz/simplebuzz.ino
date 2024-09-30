@@ -1,6 +1,9 @@
 void setup()  { 
   // declare pin 10 to be an output:
+  Serial.begin(9600);
+  Serial.print("clowns");
   pinMode(6, OUTPUT);
+  beep(50);
   beep(50);
   beep(50);
   beep(50);
