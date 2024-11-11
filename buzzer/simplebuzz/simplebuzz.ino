@@ -8,7 +8,7 @@ void setup()  {
 } 
 
 void loop()  { 
-  beep(200); 
+  beep(500); 
 }
 
 void beep(unsigned char delayms){
