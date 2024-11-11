@@ -14,8 +14,7 @@ void loop()  {
 void beep(unsigned char delayms){
   analogWrite(6, 20);      // Almost any value can be used except 0 and 255
                            // experiment to get the best tone
-  delay(delayms);          // wait for a delayms ms
+  delay(500);              // wait for 500 ms
   analogWrite(6, 0);       // 0 turns it off
-  delay(delayms);          // wait for a delayms ms   
+  delay(500);              // wait for 500 ms   
 }  
-
