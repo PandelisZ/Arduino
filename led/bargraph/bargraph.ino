@@ -6,9 +6,11 @@ void setup()
   {
     pinMode(ledPin[i], OUTPUT);
   }
+  Serial.begin(9600);
+  Serial.println("🤡");
 }
 
-void loop() 
+void loop()
 {
 fromPot();
 }
