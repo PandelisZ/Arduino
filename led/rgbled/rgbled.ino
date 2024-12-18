@@ -19,15 +19,35 @@ void showPrimary()
   digitalWrite(redPin, HIGH);
   digitalWrite(greenPin, LOW);
   digitalWrite(bluePin, LOW);
-  delay(1000);
+  delay(random(100,1000));
+  //yellow
+  digitalWrite(redPin, HIGH);
+  digitalWrite(greenPin, HIGH);
+  digitalWrite(bluePin, LOW);
+  delay(random(100,1000));
   //green
   digitalWrite(redPin, LOW);
   digitalWrite(greenPin, HIGH);
   digitalWrite(bluePin, LOW);
-  delay(1000);
+  delay(random(100,1000));
+  //cyan
+  digitalWrite(redPin, LOW);
+  digitalWrite(greenPin, HIGH);
+  digitalWrite(bluePin, HIGH);
+  delay(random(100,1000));
   //blue
   digitalWrite(redPin, LOW);
   digitalWrite(greenPin, LOW);
   digitalWrite(bluePin, HIGH);
-  delay(1000); 
+  delay(random(100,1000)); 
+   //magenta
+   digitalWrite(redPin,HIGH);
+   digitalWrite(greenPin,LOW);
+   digitalWrite(bluePin,HIGH);
+   delay(random(100,1000));
+   //white
+   digitalWrite(redPin,HIGH);
+   digitalWrite(greenPin,HIGH);
+   digitalWrite(bluePin,HIGH);
+   delay(random(1000));
 }
